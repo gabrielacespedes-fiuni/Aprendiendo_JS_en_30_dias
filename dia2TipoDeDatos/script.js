@@ -9,11 +9,11 @@ console.log(desafio);
 //3. Imprima la longitud de la cadena en la consola del navegador usando console.log()
 console.log(desafio.lenght);
 //4. Cambie todos los caracteres de cadena a letras mayúsculas usando el método toUpperCase()
-console.log(toUpperCase(desafio));
+console.log(desafio.toUpperCase());
 //5. Cambie todos los caracteres de la cadena a letras minúsculas usando el método toLowerCase()
-consolo.log(toLowerCase(desafio));
+console.log(desafio.toLowerCase());
 //6. Corta (segmenta) la primera palabra de la cadena usando el método substr() o substring()
-
+console.log(desafio.substr(0, 2)); //30
 //7. Corta la frase Days Of JavaScript de 30 Days Of JavaScript.
 //8. Verifique si la cadena contiene una palabra Script usando el método includes()
 //9. Divide la cadena en un array usando el método split()
